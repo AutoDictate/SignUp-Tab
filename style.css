@@ -9,8 +9,11 @@
 
 body{
     background-image: url(bg1.png);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    height: 100%;
     color: #F6F1EE;
     font-weight: 300;
 }
@@ -100,3 +103,22 @@ input{
     text-decoration: underline;
     text-shadow:  #ffe600ad 3px 0px 10px;
 }
+
+
+@media only screen and (max-width: 600px){
+    .form{
+        margin-top: 100px auto;
+        width: 90%;
+    }
+    .title h1{
+        font-size: 18px;
+    }
+    .title p{
+        font-size: 12px;
+    }
+    .login{
+        font-size: 12px;
+
+    }
+}
+
