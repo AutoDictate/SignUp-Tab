@@ -50,8 +50,8 @@ body{
 
 label{
     font-weight: 500;
-    padding-bottom: 3px;
-    padding-top: 7px;
+    padding-bottom: 1px;
+    padding-top: 8px;
 }
 input{
     width: 85%;
@@ -118,7 +118,12 @@ input{
     }
     .login{
         font-size: 12px;
-
+    }
+    .labels{
+        padding-left: 25px;
+    }
+    input{
+        width: 90%;
     }
 }
 
